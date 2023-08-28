@@ -86,6 +86,7 @@ namespace NathansCRUDWebsite
                 cmd.Parameters.AddWithValue("stock", p.StockLevel);
                 cmd.ExecuteNonQuery();
             }
+
         }
 
         public void UpdateProduct(Product p)
